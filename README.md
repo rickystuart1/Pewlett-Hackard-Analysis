@@ -6,3 +6,13 @@ The purpose of this project was to run a database analysis for the company Pewle
 ## Results
 
 ## Summary
+
+### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
+There is a potential of 72,458 roles that need to be replaces within the next four years.  
+
+### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+There are only 1,549 employees eligible for the mentorship program. If every employee that is eligible were to retire at once and the company were to find a replacement for each person, the mentorship eligible employees would each have to mentor 46-47 new hires. So I do not believe there are enough mentors and the company is not prepared.
+
+*The following queries were used to calulate the totals.*
