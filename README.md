@@ -24,7 +24,7 @@ The next step in the analysis was to find employees who would be eligible to be 
 
 <img src="Queries/mentorship_eligibility_code.png">
 
-<img src="Queries/mentorship_eligibility_result.png">
+<img src="Queries/mentorship_eligibility_results.png">
 
 
 ## Summary
