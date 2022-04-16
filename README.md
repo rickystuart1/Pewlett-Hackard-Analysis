@@ -20,7 +20,7 @@ Finally, the count and group by functions were used to count the number of emplo
 <img src="Queries/retiring_titles_result.png">
 
 ### Mentorship Program
-The next step in the analysis was to find employees who would be eligible to be enrolled in a mentorship program for new hires. We did this by using a triple inner join with the '[employees](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)', '[dept_emp](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv)' and '[titles](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)' tables. Then filtering by birthdate from 01-01-1965 to 12-31-1965 and making sure they were current employees by filtering to date equal to '9999-01-01', like above. 
+The next step in the analysis was to find employees who would be eligible to be enrolled in a mentorship program for new hires. We did this by using a triple inner join with the '[employees](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)', '[dept_emp](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv)' and '[titles](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)' tables. Then filtering by birthdate from 01-01-1965 to 12-31-1965 and making sure they were current employees by filtering to date equal to '9999-01-01' and put them into the '[mentorship_eligibility](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv)' table. 
 
 <img src="Queries/mentorship_eligibility_code.png">
 
