@@ -5,11 +5,11 @@ The purpose of this project was to run a database analysis for the company Pewle
 
 ## Results
 ### Retiring Employees by Titles
-To find the number of eligible employees for retirement by their titles, we created a 'Retirement Titles' table showing the titles of employees born between the range of 01-01-1952 and 12-31-1955. We did this by using an inner join of 'employees' and 'titles' tables.
+To find the number of eligible employees for retirement by their titles, we created a 'Retirement Titles' table showing the titles of employees born between the range of 01-01-1952 and 12-31-1955. We did this by using an inner join of '[employees](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)' and '[titles](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/titles.csv)' tables.
 
 <img src="Queries/retirement_titles_code.png" >
 
-We then removed duplicate rows that held employees who had switched titles over the years and put them into a new table called ['unique_titles'](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv).
+We then removed duplicate rows that held employees who had switched titles over the years and put them into a new table called '[unique_titles](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv)'.
 
 
 ### 
