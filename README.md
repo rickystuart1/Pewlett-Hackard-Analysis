@@ -1,7 +1,7 @@
 # Pewlett Hackard Analysis
 ## Overview of Analysis
 ### Purpose
-The purpose of this project was to run a database analysis for the company Pewlett Hackard. They are aware that a large number of employees would be nearing retirement age and wanted more insight on who was ready to retire, so they could prepare for the change. We needed to determine the number of employees that are eligible to retire, see which department they are a part of and to figure out which senior level employees are nearing retirement. The eployees nearing retirement would be eligible to participate in a mentorship program for new hires.
+The purpose of this project was to run a database analysis for the company Pewlett Hackard. They are aware that a large number of employees would be nearing retirement age and wanted more insight on who was ready to retire, so they could prepare for the change. We needed to determine the number of employees that are eligible to retire, see which department they are a part of and to figure out which senior level employees are nearing retirement. Then find employeeswho would be eligible to participate in a mentorship program for new hires.
 
 ## Results
 ### Retiring Employees by Titles
@@ -13,10 +13,18 @@ We then removed duplicate rows that held employees who had switched titles over 
 
 <img src="Queries/unique_titles_code.png">
 
+Finally, the count and group by functions were used to count the number of employees that were going to retire by their title. They were put into the '[retiring_titles](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv)' table. The results showed that a large number of Pewlett Hackards employees meet the requirments to retire soon, especially from senior level positions. 
 
+<img src="Queries/retiring_titles_code.png">
 
+<img src="Queries/retiring_titles_result.png">
 
-### 
+### Mentorship Program
+The next step in the analysis was to find employees who would be eligible to be enrolled in a mentorship program for new hires. We did this by using a triple inner join with the '[employees](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/employees.csv)', '[dept_emp](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv)' and '[titles](https://github.com/rickystuart1/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv)' tables. Then filtering by birthdate from 01-01-1965 to 12-31-1965 and making sure they were current employees by filtering to date equal to '9999-01-01', like above. 
+
+<img src="Queries/mentorship_eligibility_code.png">
+
+<img src="Queries/mentorship_eligibility_result.png">
 
 
 ## Summary
